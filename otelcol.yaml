@@ -21,4 +21,4 @@ service:
     metrics:
       receivers: [otlp]
       processors: [batch, attributes/betterstack]
-      exporters: [otlp/beterstack]
+      exporters: [otlp/betterstack]
