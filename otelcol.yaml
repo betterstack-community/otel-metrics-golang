@@ -13,12 +13,12 @@ processors:
   batch:
 
 exporters:
-  otlp/betterstack:
-    endpoint: https://in-otel.logs.betterstack.com:443
+  prometheusremotewrite/betterstack:
+    endpoint: https://in-otel.logs.betterstack.com/metrics
 
 service:
   pipelines:
     metrics:
       receivers: [otlp]
       processors: [batch, attributes/betterstack]
-      exporters: [otlp/betterstack]
+      exporters: [prometheusremotewrite/betterstack]
