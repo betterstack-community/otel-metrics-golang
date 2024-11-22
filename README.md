@@ -12,13 +12,6 @@
 - Basic familiarity with the
   [OpenTelemetry metrics](https://betterstack.com/community/guides/observability/opentelemetry-metrics/).
 
-## 📦 Getting started
-
-A brief guide to setting up the project.
-
-- Do the first thing.
-- Do the next thing.
-
 ## ⚖ License
 
 The code used in this project and in the linked tutorial are licensed under the
