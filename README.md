@@ -1,18 +1,16 @@
-# Title of the project
+# Instrumenting Go Metrics with OpenTelemetry
 
-Description of the project.
-
-**Tutorial**: [Link to corresponding BetterStack tutorial]()
-
-![Screenshot or GIF of the application in action](screenshot.png)
+**Tutorial**:
+[ Monitoring Go Apps with OpenTelemetry Metrics](https://betterstack.com/community/guides/observability/opentelemetry-metrics-golang/)
 
 ## 🟢 Prerequisites
 
-A list of requirements and package versions that the reader needs to build and
-run the project.
-
-- The first thing.
-- The second thing.
+- Prior Go development experience and a
+  [recent version](https://go.dev/doc/install) installed.
+- Familiarity with [Docker](https://www.docker.com/) and [Docker
+  Compose][docker-compose-getting-started].
+- Basic familiarity with the
+  [OpenTelemetry metrics](https://betterstack.com/community/guides/observability/opentelemetry-metrics/).
 
 ## 📦 Getting started
 
