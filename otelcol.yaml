@@ -8,17 +8,17 @@ processors:
   attributes/betterstack:
     actions:
       - key: better_stack_source_token
-        value: <source_token>
+        value: hcJiu2kPaKuUo6ggFa59uWG4
         action: insert
   batch:
 
 exporters:
-  prometheusremotewrite/betterstack:
-    endpoint: https://in-otel.logs.betterstack.com/metrics
+  prometheus:
+    endpoint: localhost:3000
 
 service:
   pipelines:
     metrics:
       receivers: [otlp]
-      processors: [batch, attributes/betterstack]
-      exporters: [prometheusremotewrite/betterstack]
+      processors: [batch]
+      exporters: [prometheus]

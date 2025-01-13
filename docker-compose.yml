@@ -21,6 +21,8 @@ services:
     image: otel/opentelemetry-collector:latest
     volumes:
       - ./otelcol.yaml:/etc/otelcol/config.yaml
+    ports:
+      - 3000:3000
     networks:
       - otel-metrics-demo-network
 
